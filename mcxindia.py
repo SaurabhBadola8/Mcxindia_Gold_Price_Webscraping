@@ -51,7 +51,7 @@ obj.get_table_Data()
     
 def Excel_read():
     global data_Fram
-    table=pd.read_csv("c:/Users/SpotMarket_20240623192407.csv")
+    table=pd.read_csv("c:/Users/SpotMarket_20240627132159.xls")
     data_Fram=pd.DataFrame(table)
     time.sleep(2)
 
